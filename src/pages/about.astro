@@ -1,0 +1,16 @@
+---
+import Link from "../components/Link.astro";
+import Layout from "../layouts/Layout.astro";
+const title = "About Page";
+// console.log({ title });
+---
+
+<Layout title={title}>
+  <Link link="/" classCss="link" content="Back to home" />
+</Layout>
+
+<!-- <script>
+  const link = document.querySelector(".link");
+  link.textContent = "Back to home";
+  //   console.log("ini console dari client side");
+</script> -->
